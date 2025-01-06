@@ -1,0 +1,171 @@
+body {
+      background-color: #e7f0fd;
+        font-family: "Roboto", sans-serif;
+          margin: 0;
+            padding: 0;
+              color: #272142;
+              }
+
+              a {
+                color: #5a8bf5;
+                  text-decoration: none;
+                  }
+
+                  a:hover {
+                    text-decoration: underline;
+                    }
+
+                    .weather-app {
+                      background: white;
+                        max-width: 650px;
+                          margin: 50px auto;
+                            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                              border-radius: 16px;
+                                padding: 40px;
+                                  overflow: hidden;
+                                  }
+
+                                  header {
+                                    border-bottom: 1px solid #e0e7ff;
+                                      padding-bottom: 30px;
+                                      }
+
+                                      .search-form-input {
+                                        background-color: #f4f7ff;
+                                          border: 2px solid #c6d4ef;
+                                            border-radius: 8px;
+                                              width: 75%;
+                                                font-size: 16px;
+                                                  padding: 14px 18px;
+                                                    transition: border 0.3s ease;
+                                                    }
+
+                                                    .search-form-input:focus {
+                                                      border: 2px solid #5a8bf5;
+                                                        outline: none;
+                                                        }
+
+                                                        .search-form-button {
+                                                          background: linear-gradient(135deg, #6f73f1, #8f94fb);
+                                                            padding: 14px 30px;
+                                                              border: none;
+                                                                font-size: 16px;
+                                                                  margin-left: 5px;
+                                                                    border-radius: 8px;
+                                                                      color: white;
+                                                                        cursor: pointer;
+                                                                          transition: background 0.3s ease;
+                                                                          }
+
+                                                                          .search-form-button:hover {
+                                                                            background: linear-gradient(135deg, #8f94fb, #6f73f1);
+                                                                            }
+
+                                                                            main {
+                                                                              padding: 30px 0;
+                                                                              }
+
+                                                                              .weather-app-data {
+                                                                                display: flex;
+                                                                                  justify-content: space-between;
+                                                                                    align-items: center;
+                                                                                    }
+
+                                                                                    .weather-app-city {
+                                                                                      margin: 0;
+                                                                                        font-size: 42px;
+                                                                                          line-height: 52px;
+                                                                                            color: #272142;
+                                                                                            }
+
+                                                                                            .weather-app-details {
+                                                                                              font-size: 16px;
+                                                                                                color: #5a5f8f;
+                                                                                                  line-height: 24px;
+                                                                                                    font-weight: 500;
+                                                                                                    }
+
+                                                                                                    .weather-app-details strong {
+                                                                                                      color: #f66d85;
+                                                                                                      }
+
+                                                                                                      .weather-app-temperature-container {
+                                                                                                        display: flex;
+                                                                                                          align-items: center;
+                                                                                                          }
+
+                                                                                                          .weather-app-icon img {
+                                                                                                            width: 90px;
+                                                                                                              height: 90px;
+                                                                                                              }
+
+                                                                                                              .weather-app-temperature {
+                                                                                                                font-size: 90px;
+                                                                                                                  line-height: 90px;
+                                                                                                                    font-weight: bold;
+                                                                                                                      margin-left: 10px;
+                                                                                                                        color: #272142;
+                                                                                                                        }
+
+                                                                                                                        .weather-app-unit {
+                                                                                                                          margin-top: 6px;
+                                                                                                                            font-size: 28px;
+                                                                                                                              color: #5a5f8f;
+                                                                                                                              }
+
+                                                                                                                              .weather-forecast {
+                                                                                                                                display: flex;
+                                                                                                                                  justify-content: space-between;
+                                                                                                                                    margin-top: 40px;
+                                                                                                                                    }
+
+                                                                                                                                    .weather-forecast-day {
+                                                                                                                                      background-color: #f4f7ff;
+                                                                                                                                        border: 1px solid #d1ddf5;
+                                                                                                                                          border-radius: 12px;
+                                                                                                                                            padding: 10px;
+                                                                                                                                              width: 100px;
+                                                                                                                                                text-align: center;
+                                                                                                                                                  transition: transform 0.2s ease, box-shadow 0.2s ease;
+                                                                                                                                                  }
+
+                                                                                                                                                  .weather-forecast-day:hover {
+                                                                                                                                                    transform: translateY(-5px);
+                                                                                                                                                      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+                                                                                                                                                      }
+
+                                                                                                                                                      .weather-forecast-date {
+                                                                                                                                                        text-align: center;
+                                                                                                                                                          color: #5a5f8f;
+                                                                                                                                                            font-size: 16px;
+                                                                                                                                                              line-height: 20px;
+                                                                                                                                                                margin-bottom: 10px;
+                                                                                                                                                                }
+
+                                                                                                                                                                .weather-forecast-icon {
+                                                                                                                                                                  width: 64px;
+                                                                                                                                                                    height: 64px;
+                                                                                                                                                                      display: block;
+                                                                                                                                                                        margin: 0 auto;
+                                                                                                                                                                        }
+
+                                                                                                                                                                        .weather-forecast-temperatures {
+                                                                                                                                                                          text-align: center;
+                                                                                                                                                                            color: #f66d85;
+                                                                                                                                                                              margin-top: 10px;
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                  justify-content: center;
+                                                                                                                                                                                  }
+
+                                                                                                                                                                                  .weather-forecast-temperature {
+                                                                                                                                                                                    padding: 0 10px;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    footer {
+                                                                                                                                                                                      border-top: 1px solid #e0e7ff;
+                                                                                                                                                                                        padding: 30px 0 0 0;
+                                                                                                                                                                                          text-align: center;
+                                                                                                                                                                                            font-size: 14px;
+                                                                                                                                                                                              color: rgba(0, 0, 0, 0.6);
+                                                                                                                                                                                                margin-top: 20px;
+}
